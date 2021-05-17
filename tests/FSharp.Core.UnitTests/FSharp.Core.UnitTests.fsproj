@@ -78,6 +78,7 @@
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\Cancellation.fs" />
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\AsyncType.fs" />
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\Tasks.fs" />
+    <Compile Include="FSharp.Core\Microsoft.FSharp.Control\Tasks.Coyote.fs" />
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\TasksDynamic.fs" />
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\MailboxProcessorType.fs" />
     <Compile Include="FSharp.Core\Microsoft.FSharp.Control\AsyncModule.fs" />
@@ -98,5 +99,6 @@
   <ItemGroup>
     <ProjectReference Include="$(FSharpSourcesRoot)\fsharp\FSharp.Core\FSharp.Core.fsproj" />
     <PackageReference Include="FsCheck" Version="$(FsCheckVersion)" />
+    <PackageReference Include="Microsoft.Coyote.Test" Version="1.2.6" />
   </ItemGroup>
 </Project>

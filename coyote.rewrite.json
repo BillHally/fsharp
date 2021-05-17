@@ -1,0 +1,8 @@
+{
+  "AssembliesPath": "artifacts\\bin\\FSharp.Core.UnitTests\\Debug\\net5.0",
+  "OutputPath": "artifacts\\bin\\FSharp.Core.UnitTests\\Debug\\net5.0\\Rewritten",
+  "Assemblies": [
+    "FSharp.Core.dll",
+    "FSharp.Core.UnitTests.dll"
+  ]
+}
